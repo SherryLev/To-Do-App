@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".ui.EditFragment" android:id="@+id/frameLayout3">
+    <Switch
+            android:text="Important"
+            android:layout_width="119dp"
+            android:layout_height="68dp" android:id="@+id/editImportant"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="4dp" android:layout_marginStart="212dp"/>
+    <Switch
+            android:text="Archived"
+            android:layout_width="104dp"
+            android:layout_height="61dp" android:id="@+id/editArchived"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="4dp" android:layout_marginStart="60dp"/>
+    <EditText
+            android:layout_width="409dp"
+            android:layout_height= "wrap_content"
+            android:inputType ="textMultiLine"
+            android:text="Title"
+            android:ems="10"
+            android:id="@+id/editTitle"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="68dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"/>
+    <EditText
+            android:layout_width="414dp"
+
+            android:layout_height="wrap_content"
+            android:text="Content"
+            android:inputType ="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editContent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="120dp"/>
+    <Button
+            android:text="Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/backButton"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="16dp" android:layout_marginBottom="40dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--        android:inputType="textPersonName"
+            android:layout_height="91dp"
+             android:layout_height="51dp"
+
+              android:layout_height="51dp"
+-->
